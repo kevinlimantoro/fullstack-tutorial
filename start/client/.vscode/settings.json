@@ -1,0 +1,41 @@
+{
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false,
+  "files.exclude": {
+    "**/*.js": { "when": "$(basename).ts" }
+  },
+  "tslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "files.autoSave": "off",
+  "todohighlight.keywords": [
+    {
+      "text": "TBC:",
+      "color": "#fff",
+      "backgroundColor": "#fda085",
+      "overviewRulerColor": "grey"
+    }
+  ],
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ]
+}
